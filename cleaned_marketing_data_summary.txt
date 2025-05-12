@@ -1,0 +1,55 @@
+
+Data Cleaning and Preprocessing Summary for 'cleaned_marketing_data.csv'
+
+Changes Applied:
+
+1. Outliers Detection and Treatment:
+   - Detected outliers in numeric columns using the IQR method.
+   - Capped outliers to the lower and upper threshold limits.
+
+2. Handling Missing Values:
+   - Checked for missing values across all columns.
+   - Removed columns with more than 50% missing data.
+   - Filled missing values in the 'Income' column with its mean.
+
+3. Standardizing Data Entries:
+   - Standardized 'Marital_Status' by grouping 'YOLO', 'Absurd', 'Alone' under 'Alone'.
+
+4. Date Column Transformation:
+   - Converted 'Dt_Customer' column to datetime format.
+   - Extracted 'Customer_Join_Year', 'Customer_Join_Month', 'Customer_Join_Period', and 'Join_Day'.
+
+5. Dropped Non-Informative Columns:
+   - Dropped 'Complain' column after reviewing its value counts.
+   - Dropped 'AcceptedCmp1', 'AcceptedCmp2', 'AcceptedCmp3', 'AcceptedCmp4', 'AcceptedCmp5' columns.
+   - Dropped 'Z_CostContact' and 'Z_Revenue' columns due to redundancy.
+   - Dropped 'Response' column after reviewing its value counts.
+
+Final Columns in 'cleaned_marketing_data.csv':
+
+1. ID
+2. Year_Birth
+3. Education
+4. Marital_Status
+5. Income
+6. Kidhome
+7. Teenhome
+8. Recency
+9. MntWines
+10. MntFruits
+11. MntMeatProducts
+12. MntFishProducts
+13. MntSweetProducts
+14. MntGoldProds
+15. NumDealsPurchases
+16. NumWebPurchases
+17. NumCatalogPurchases
+18. NumStorePurchases
+19. NumWebVisitsMonth
+20. Dt_Customer
+21. Customer_Join_Year
+22. Customer_Join_Month
+23. Customer_Join_Period
+24. Join_Day
+
+This summarizes all the cleaning and preprocessing steps applied to the marketing data.
