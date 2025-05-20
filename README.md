@@ -77,8 +77,8 @@ The workflow includes data cleaning, feature engineering, and exploratory data a
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/harshita-bioinfo/customer-personality-analysis.git
-   cd customer-personality-analysis
+   git clone https://github.com/harshita-bioinfo/Customer_Personality_Analysis.git
+   cd Customer_Personality_Analysis
    ```
 
 2. Install necessary Python packages:
