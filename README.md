@@ -77,7 +77,7 @@ The workflow includes data cleaning, feature engineering, and exploratory data a
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/harshita-bioinfo/Customer_Personality_Analysis.git
+   git clone https://github.com/Harshita-bioinfo/Customer_Personality_Analysis.git
    cd Customer_Personality_Analysis
    ```
 
